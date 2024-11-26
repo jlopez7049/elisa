@@ -1,0 +1,122 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.icon{
+  inline-size: 30px;
+  margin-inline-start: 15px
+}
+.icon:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+}
+  
+.header img {
+  width: 69px;
+  height: 20px;
+  position:absolute;
+  top: 37px; left: 128px;
+
+}
+
+nav {
+  display: block;
+  align-self: center;
+ 
+}
+nav div ul{
+  position: absolute;
+  left: 534px;
+}
+nav div button{
+  position: absolute;
+  left: 988px; top: 38px;
+  block-size: 40px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border: var(--border-button);
+  border-radius: 90px;
+  background-color: #42E2B8;
+  box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.25);
+
+}
+nav div ul li {
+  margin-inline: 25px;
+  opacity: 0.5;
+  display: inline;
+  padding-left: 3px;
+  padding-right: 3px;
+  
+}
+nav div ul li:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+ .row{
+  
+    inline-size: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    
+ }
+ .img{
+  inline-size: 650px;
+  flex-direction: row-reverse;
+  width: 600px;
+  height: 600px;
+ }
+.fondo{
+  background:linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);
+}
+:root { 
+  --button-color: #42E2B8;
+  --headline-color: #42E2B8;
+  --border-button: 2px solid #0F0A0A;
+  --black: #0f0a0a; 
+  --primary: #42e2b8; 
+  --gradient: linear-gradient(45deg, #fad7a1 0%, #e96d71 100%); 
+  --headline1: 700 5.9375rem/9.6068754196167rem Oxygen; 
+  --headline2: 700 3.6875rem/5.96637487411499rem Oxygen; 
+  --headline3: 700 3rem/4.854000091552734rem Oxygen; 
+  --headline4: 700 2.125rem/3.4382500648498535rem Oxygen; 
+  --headline5: 700 1.5rem/2.427000045776367rem Oxygen; 
+  --body1: 400 1rem/1.6180000305175781rem Oxygen; 
+  --body2: 400 0.875rem/1.4157500267028809rem Oxygen; 
+  --button: 700 0.875rem/1.4157500267028809rem Oxygen; 
+  --caption: 400 0.75rem/1.2135000228881836rem Oxygen; 
+}
+
+body {
+  color: var(--white);
+  font: var(--body1);  
+}
+
+h1{
+  font: var(--headline1);
+}
+
+h2{
+  font: var(--headline2);
+}
+
+h3{
+  font: var(--headline3);
+}
+
+h4{
+  font: var(--headline4);
+}
+
+h5{
+  font: var(--headline5);
+}
+
+
